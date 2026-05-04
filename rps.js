@@ -24,10 +24,9 @@ let userScore = 0;
 let compScore = 0;
 
 const choices = document.querySelectorAll(".choice");
-const msg = document.querySelector(".msg");
-
 const userScorePara = document.querySelector("#i-p");
 const compScorePara = document.querySelector("#ai-p");
+const msg = document.querySelector(".msg");
 
 const genChoice = () => {
 const options = ["rock","paper","scissors"];
